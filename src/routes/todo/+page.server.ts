@@ -1,6 +1,6 @@
 import { getRuntimeFromLocals } from '@inlang/sdk-js/adapter-sveltekit/server';
 import { fail } from '@sveltejs/kit';
-import type { Todo } from './model.js';
+import type { Todo } from './model';
 import { v4 as uuid } from 'uuid';
 
 const db = new Map<string, Todo[]>();

@@ -1,0 +1,49 @@
+{
+	"title": "Moja zgodna aplikacija Za uraditi",
+	"description": "Ovo je jednostavna aplikacija Za uraditi koja ilustruje Inlang u realnoj aplikaciji.",
+	"app": {
+		"today": "Danas, {date}",
+		"nrOfTodos": "{count} zadataka",
+		"markAsDone": "Označi kao urađeno",
+		"markAsIncomplete": "Označi kao nezavršeno",
+		"deleteTodo": "Obriši",
+		"placeholder": "Dodaj zadatak...",
+		"addTodo": "Dodaj novo"
+	},
+	"pages": {
+		"home": {
+			"goToTodoApp": "Uđi u aplikaciju"
+		},
+		"todo": {
+			"goToHome": "Nazad"
+		},
+		"error": {
+			"404": {
+				"title": "Stranica nije pronađena"
+			},
+			"cta": "Klik ovde za povratak u aplikaciju"
+		}
+	},
+	"server": {
+		"error": {
+			"generic": "Nešto je pošlo naopako",
+			"missingField": "Nedostaje polje '{field}'",
+			"incorrectField": "Polje '{field}' ima neispravan tip podatka"
+		},
+		"logs": {
+			"loaded": "Učitano {count} zadataka",
+			"added": "'{id}' dodat novi zadatak",
+			"deleted": "'{id}' obrisan zadatak",
+			"completed": "'{id}' označen zadatak kao urađen",
+			"incompleted": "'{id}' označi zadatak kao nezavršen"
+		}
+	},
+	"languageSwitcher": {
+		"chooseLanguage": "Izaberi jezik"
+	},
+	"footer": {
+		"madeBy": "Napravljeno od ❤️ od Inlang",
+		"linkToDocs": "Poseti <a href=\"https://www.inlang.com\">dodokumentaciju</a> da bi više naučili o Inlang.",
+		"linkToGithub": "Vidi izvorni kod na Github"
+	}
+}
